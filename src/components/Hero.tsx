@@ -1,5 +1,4 @@
 import { ArrowDown } from 'lucide-react';
-import profileImage from '@/assets/profile-avatar.jpg';
 
 const Hero = () => {
   const scrollToAbout = () => {
@@ -39,9 +38,9 @@ const Hero = () => {
             <div className="relative">
               <div className="w-44 h-44 rounded-full border-4 border-white/20 shadow-xl overflow-hidden">
                 <img
-                  src={profileImage}
-                  alt="Sumit Kumar"
-                  className="w-full h-full object-cover"
+                  src="/sai-profile.png"
+                  alt="Sai Sri Pavan Arveti"
+                  className="w-full h-full object-cover object-center"
                 />
               </div>
               <div className="absolute inset-0 rounded-full bg-gradient-to-tr from-blue-400/20 to-transparent"></div>
@@ -50,31 +49,31 @@ const Hero = () => {
 
           {/* Main Content */}
           <h1 className="text-5xl md:text-7xl font-bold mb-6 leading-tight">
-            <span className="block text-white">Sumit</span>
+            <span className="block text-white">Sai Sri Pavan</span>
             <span className="block bg-gradient-to-r from-blue-400 to-purple-500 bg-clip-text text-transparent">
-              Kumar
+              Arveti
             </span>
           </h1>
 
           <p className="text-xl md:text-2xl text-gray-300 mb-4 font-light">
-            Backend Developer
+            Finance & Business Analyst
           </p>
 
           <p className="text-lg text-gray-400 mb-12 max-w-2xl mx-auto leading-relaxed">
-            Skilled in scalable systems, distributed architectures, and backend services using Java, Spring Boot, 
-            Kafka, Redis, and Docker. Experienced in Android development with strong system design fundamentals.
+            Finance and Administration analyst with 4+ years of experience delivering measurable improvements 
+            across financial operations, reporting, and transformation initiatives in large-scale corporate environments.
           </p>
 
           {/* Contact Info */}
           <div className="flex flex-col md:flex-row items-center justify-center gap-6 mb-12 text-gray-300">
             <div className="flex items-center gap-2">
-              <span>📧 sumitgaurav048@gmail.com</span>
+              <span>📧 saisripavanarveti@gmail.com</span>
             </div>
             <div className="flex items-center gap-2">
-              <span>📱 +91 8092432741</span>
+              <span>📱 +353 894984204</span>
             </div>
             <div className="flex items-center gap-2">
-              <span>📍 Bhubaneswar, India</span>
+              <span>📍 Dublin, Ireland</span>
             </div>
           </div>
 
