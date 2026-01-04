@@ -1,45 +1,63 @@
 import { Card, CardContent } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
 import { Carousel, CarouselContent, CarouselItem, CarouselNext, CarouselPrevious } from "@/components/ui/carousel";
-import { TrendingUp, DollarSign, Clock, Users, Zap, Target } from "lucide-react";
+import { TrendingUp, Award, Target, Zap } from "lucide-react";
 
 const KeyAchievements = () => {
   const achievements = [
     {
-      title: "ESSPL Hackathon Top 6 Finalist",
-      description: "Achieved Top 6 finalist position out of 2,500 teams in ESSPL Hackathon for developing a real-time disaster response application with innovative features and robust architecture.",
-      icon: <Target className="w-8 h-8" />,
-      company: "ESSPL Hackathon",
-      category: "Competition",
-      gradient: "from-green-500 to-emerald-500",
-      metrics: ["Top 6", "2,500 Teams", "Real-time App"]
-    },
-    {
-      title: "LeetCode 750+ Problems Solved",
-      description: "Solved 750+ DSA problems on LeetCode with a 1800+ rating, outperforming 93% of competitors globally. Demonstrates strong problem-solving skills and algorithmic thinking.",
+      title: "15-25% Organisation-wide Improvements",
+      description: "Delivered measurable improvements across reporting accuracy, KPI visibility, audit readiness, and process efficiency through ERP upgrades, automation, and data-driven analysis at Deloitte USI.",
       icon: <TrendingUp className="w-8 h-8" />,
-      company: "LeetCode",
-      category: "Competitive Programming",
+      company: "Deloitte USI",
+      category: "Process Improvement",
       gradient: "from-blue-500 to-cyan-500",
-      metrics: ["750+ Problems", "1800+ Rating", "Top 7% Globally"]
+      metrics: ["15-25% Improvement", "Multiple KPIs", "Organisation-wide"]
     },
     {
-      title: "Flipkart Grid 6.0 Round 2 Qualifier",
-      description: "Qualified for Round 2 in Flipkart Grid 6.0, one of India's premier engineering challenges, competing against thousands of talented engineers across the country.",
-      icon: <Zap className="w-8 h-8" />,
-      company: "Flipkart",
-      category: "Competition",
-      gradient: "from-purple-500 to-pink-500",
-      metrics: ["Round 2 Qualified", "National Competition", "Engineering Challenge"]
+      title: "100% Audit Compliance",
+      description: "Maintained perfect audit compliance while delivering end-to-end financial operations and management reporting across multiple entities, supporting €3M+ in monthly revenues using SAP S/4HANA and Infor SunSystems.",
+      icon: <Award className="w-8 h-8" />,
+      company: "Deloitte USI",
+      category: "Financial Operations",
+      gradient: "from-green-500 to-emerald-500",
+      metrics: ["100% Compliance", "€3M+ Monthly Revenue", "Multi-entity"]
     },
     {
-      title: "EY Techathon 5.0 Round 2 Qualifier",
-      description: "Qualified for Round 2 in EY Techathon 5.0, demonstrating strong technical skills and innovative problem-solving abilities in a competitive national-level technology competition.",
+      title: "€550M+ Portfolio Management",
+      description: "Successfully managed and supported a €550M+ annual gross written premium insurance portfolio, processing €22M+ in monthly transactions across 1,000+ vendor invoices at Go Digit General Insurance.",
       icon: <Target className="w-8 h-8" />,
-      company: "EY",
-      category: "Competition",
+      company: "Go Digit",
+      category: "Portfolio Management",
+      gradient: "from-purple-500 to-pink-500",
+      metrics: ["€550M+ Portfolio", "€22M+ Monthly", "1,000+ Invoices"]
+    },
+    {
+      title: "25% Reduction in Manual Effort",
+      description: "Contributed to finance automation and process improvement initiatives that reduced manual effort by 25% and improved control over high-value vendor payments, enhancing operational efficiency.",
+      icon: <Zap className="w-8 h-8" />,
+      company: "Go Digit",
+      category: "Process Automation",
       gradient: "from-orange-500 to-red-500",
-      metrics: ["Round 2 Qualified", "EY Techathon", "National Level"]
+      metrics: ["25% Reduction", "Process Automation", "Improved Control"]
+    },
+    {
+      title: "Top 2% Academic Performance",
+      description: "Achieved 66.8% score ranking in Top 2% of cohort in MSc International Business at Maynooth University, Ireland, demonstrating academic excellence and strong analytical capabilities.",
+      icon: <Award className="w-8 h-8" />,
+      company: "Maynooth University",
+      category: "Academic Excellence",
+      gradient: "from-indigo-500 to-purple-500",
+      metrics: ["66.8% Score", "Top 2%", "MSc International Business"]
+    },
+    {
+      title: "Finance Transformation Leadership",
+      description: "Led finance transformation initiatives by analysing existing workflows, mapping process gaps, and supporting redesign of invoice reclassification and inter-department expense allocation processes.",
+      icon: <Target className="w-8 h-8" />,
+      company: "Deloitte USI",
+      category: "Transformation",
+      gradient: "from-pink-500 to-rose-500",
+      metrics: ["Process Redesign", "Workflow Analysis", "Transformation"]
     }
   ];
 
@@ -55,8 +73,8 @@ const KeyAchievements = () => {
             Key <span className="bg-gradient-to-r from-blue-400 to-purple-500 bg-clip-text text-transparent">Achievements</span>
           </h2>
           <p className="text-xl text-gray-300 max-w-3xl mx-auto">
-            Recognition and achievements demonstrating strong problem-solving skills, 
-            competitive programming excellence, and innovation in national-level competitions.
+            Demonstrating measurable impact in financial operations, process improvement, 
+            and business transformation across multiple organizations and projects.
           </p>
         </div>
 
@@ -133,20 +151,20 @@ const KeyAchievements = () => {
             <CardContent className="p-8">
               <div className="grid grid-cols-2 md:grid-cols-4 gap-6 text-center">
                 <div>
-                  <div className="text-3xl font-bold text-primary mb-2">Top 6</div>
-                  <div className="text-sm text-muted-foreground">ESSPL Hackathon</div>
+                  <div className="text-3xl font-bold text-primary mb-2">4+ Years</div>
+                  <div className="text-sm text-muted-foreground">Experience</div>
                 </div>
                 <div>
-                  <div className="text-3xl font-bold text-accent mb-2">750+</div>
-                  <div className="text-sm text-muted-foreground">LeetCode Problems</div>
+                  <div className="text-3xl font-bold text-accent mb-2">15-25%</div>
+                  <div className="text-sm text-muted-foreground">Improvements</div>
                 </div>
                 <div>
-                  <div className="text-3xl font-bold text-primary mb-2">1800+</div>
-                  <div className="text-sm text-muted-foreground">LeetCode Rating</div>
+                  <div className="text-3xl font-bold text-primary mb-2">€550M+</div>
+                  <div className="text-sm text-muted-foreground">Portfolio Managed</div>
                 </div>
                 <div>
-                  <div className="text-3xl font-bold text-accent mb-2">Top 7%</div>
-                  <div className="text-sm text-muted-foreground">Global Ranking</div>
+                  <div className="text-3xl font-bold text-accent mb-2">Top 2%</div>
+                  <div className="text-sm text-muted-foreground">Academic Ranking</div>
                 </div>
               </div>
             </CardContent>

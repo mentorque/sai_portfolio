@@ -6,26 +6,64 @@ import { Building2, MapPin, Calendar, TrendingUp } from "lucide-react";
 const Experience = () => {
   const experiences = [
     {
-      company: "Freelance",
-      position: "Frontend Developer",
-      location: "Remote",
-      duration: "May 2025 – June 2025",
-      logo: "F",
+      company: "Deloitte USI",
+      position: "Analyst - Administrative Business Center",
+      location: "Hyderabad, India",
+      duration: "May 2022 – Sep 2024",
+      logo: "D",
       achievements: [
         {
-          impact: "Paper Trading App Development",
-          description: "Developed the frontend for a Paper Trading app using TypeScript + Firebase, building multiple trading, portfolio, and authentication screens while designing clear user-flow logic."
+          impact: "100% Audit Compliance",
+          description: "Delivered end-to-end financial operations and management reporting across multiple entities using SAP S/4HANA and Infor SunSystems, supporting monthly revenues exceeding €3 million."
         },
         {
-          impact: "Team Collaboration",
-          description: "Collaborated with a 4-member team to define functional & non-functional requirements and build modular UI components with a scalable NoSQL design."
+          impact: "Key Financial KPIs Monitoring",
+          description: "Owned continuous monitoring and analysis of key financial KPIs including invoice cycle time, vendor ageing, accrual accuracy, exception rates, and expense variance to assess performance, identify risks, and support data-driven decisions."
         },
         {
-          impact: "Complete Delivery",
-          description: "Successfully delivered a fully functional Paper Trading application frontend within the 2-month timeline with clean, maintainable code architecture."
+          impact: "15-20% Improvement in Reporting Accuracy",
+          description: "Drove variance analysis, trend analysis, and root cause analysis on month-end close data, reconciliations, and exception reports to improve reporting accuracy and operational predictability."
+        },
+        {
+          impact: "Automated Q&A Dashboards",
+          description: "Designed and maintained automated Q&A Excel dashboards and control reports to track invoice quality, processing efficiency, and exception trends, significantly improving KPI visibility and audit readiness."
+        },
+        {
+          impact: "Finance Transformation Leadership",
+          description: "Led finance transformation initiatives by analysing existing workflows, mapping process gaps, and supporting redesign of invoice reclassification and inter-department expense allocation processes."
         }
       ],
-      technologies: ["TypeScript", "Firebase", "React", "NoSQL", "Authentication", "Real-time Database"]
+      technologies: ["SAP S/4HANA", "Infor SunSystems", "Advanced Excel", "Q&A Dashboards", "KPI Monitoring", "Process Improvement"]
+    },
+    {
+      company: "Go Digit General Insurance Company",
+      position: "Finance Analyst",
+      location: "Bengaluru, India",
+      duration: "Jul 2020 – May 2022",
+      logo: "G",
+      achievements: [
+        {
+          impact: "€550M+ Portfolio Management",
+          description: "Supported annual gross written premium insurance portfolio by managing end-to-end accounts payable and expense accounting operations, processing €22M+ in monthly transactions across 1,000+ vendor invoices."
+        },
+        {
+          impact: "15-20% Improvement in Payment Turnaround",
+          description: "Tracked and analysed key financial KPIs including expense ratios, vendor ageing, payment cycle time, and accrual accuracy, contributing to significant improvement in payment turnaround time."
+        },
+        {
+          impact: "Statutory Audit Support",
+          description: "Supported quarterly and annual statutory audits by coordinating GST reconciliation and regulatory schedules impacting financial statements exceeding INR 1,000+ crores in expenses annually."
+        },
+        {
+          impact: "25% Reduction in Manual Effort",
+          description: "Contributed to finance automation and process improvement initiatives that reduced manual effort by approximately 25% and improved control over high-value vendor payments."
+        },
+        {
+          impact: "€120M Vendor Payments Portfolio",
+          description: "Worked closely with finance systems, tax, and business stakeholders during system integrations to align expense classification, revenue-related costs, and operational reporting."
+        }
+      ],
+      technologies: ["ERP Systems", "Advanced Excel", "GST Reconciliation", "Financial Reporting", "Process Automation", "Vendor Management"]
     }
   ];
 
@@ -37,8 +75,8 @@ const Experience = () => {
             Work <span className="bg-gradient-to-r from-blue-400 to-purple-500 bg-clip-text text-transparent">Experience</span>
           </h2>
           <p className="text-xl text-gray-300 max-w-3xl mx-auto">
-            Building production-grade systems and delivering measurable business impact 
-            through innovative technical solutions.
+            4+ years of experience delivering measurable improvements in financial operations, 
+            reporting, and transformation initiatives across large-scale corporate environments.
           </p>
         </div>
 
@@ -145,7 +183,7 @@ const Experience = () => {
 
                 {/* Technologies Used */}
                 <div className="pt-4 border-t border-border">
-                  <h4 className="text-sm font-semibold text-muted-foreground mb-3">Technologies Used</h4>
+                  <h4 className="text-sm font-semibold text-muted-foreground mb-3">Technologies & Skills Used</h4>
                   <div className="flex flex-wrap gap-2">
                     {exp.technologies.map((tech, techIndex) => (
                       <Badge key={techIndex} variant="secondary" className="text-xs">

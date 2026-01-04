@@ -1,27 +1,27 @@
 import { Card, CardContent } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
 import { Badge } from "@/components/ui/badge";
-import { Mail, Phone, MapPin, Linkedin, Github, ExternalLink } from "lucide-react";
+import { Mail, Phone, MapPin, Linkedin, ExternalLink } from "lucide-react";
 
 const Contact = () => {
   const contactInfo = [
     {
       icon: <Mail className="w-6 h-6" />,
       label: "Email",
-      value: "sumitgaurav048@gmail.com",
-      href: "mailto:sumitgaurav048@gmail.com",
+      value: "saisripavanarveti@gmail.com",
+      href: "mailto:saisripavanarveti@gmail.com",
       primary: true
     },
     {
       icon: <Phone className="w-6 h-6" />,
       label: "Phone",
-      value: "+91 8092432741",
-      href: "tel:+918092432741"
+      value: "+353 894984204",
+      href: "tel:+353894984204"
     },
     {
       icon: <MapPin className="w-6 h-6" />,
       label: "Location",
-      value: "Bhubaneswar, India",
+      value: "Dublin, Ireland",
       href: "#"
     }
   ];
@@ -30,14 +30,8 @@ const Contact = () => {
     {
       icon: <Linkedin className="w-5 h-5" />,
       label: "LinkedIn",
-      href: "https://linkedin.com/in/sumit-kumar-barnwal",
+      href: "https://linkedin.com/in/sai-sri-pavan-arveti",
       color: "text-blue-500"
-    },
-    {
-      icon: <Github className="w-5 h-5" />,
-      label: "GitHub",
-      href: "https://github.com/Sumit-22",
-      color: "text-gray-300"
     }
   ];
 
@@ -49,8 +43,8 @@ const Contact = () => {
             Let's <span className="bg-gradient-to-r from-blue-400 to-purple-500 bg-clip-text text-transparent">Connect</span>
           </h2>
           <p className="text-xl text-gray-300 max-w-2xl mx-auto">
-            I'm currently pursuing my B.Tech at IIIT Bhubaneswar and actively seeking 
-            opportunities to contribute to innovative projects and teams.
+            Currently pursuing MSc International Business at Maynooth University and actively seeking 
+            opportunities in consulting, business analytics, and finance transformation roles.
           </p>
         </div>
 
@@ -85,7 +79,7 @@ const Contact = () => {
 
               {/* Social Links */}
               <div className="mt-8 pt-6 border-t border-border">
-                <h4 className="text-lg font-semibold mb-4">Follow Me</h4>
+                <h4 className="text-lg font-semibold mb-4">Connect With Me</h4>
                 <div className="flex gap-4">
                   {socialLinks.map((social, index) => (
                     <Button 
@@ -133,9 +127,9 @@ const Contact = () => {
                 <div className="space-y-4">
                   <h4 className="font-semibold text-foreground">Education</h4>
                   <div className="text-sm text-muted-foreground">
-                    <p className="font-medium text-primary">International Institute of Information Technology, Bhubaneswar</p>
-                    <p>B.Tech in Computer Science and Engineering</p>
-                    <p>2022 – 2026 | CGPA: 8.05/10</p>
+                    <p className="font-medium text-primary">Maynooth University, Ireland</p>
+                    <p>MSc International Business</p>
+                    <p>Sep 2024 – Oct 2025 | 66.8% - Top 2%</p>
                   </div>
                 </div>
 
@@ -143,11 +137,11 @@ const Contact = () => {
                   <h4 className="font-semibold text-foreground">Interests</h4>
                   <div className="flex flex-wrap gap-2">
                     {[
-                      "Backend Development",
-                      "Distributed Systems", 
-                      "Microservices",
-                      "Android Development",
-                      "System Design"
+                      "Business Consulting",
+                      "Finance Analytics", 
+                      "Process Transformation",
+                      "KPI Monitoring",
+                      "Strategic Planning"
                     ].map((interest, index) => (
                       <Badge key={index} variant="secondary" className="text-xs">
                         {interest}
@@ -162,7 +156,7 @@ const Contact = () => {
                     className="w-full" 
                     asChild
                   >
-                    <a href="mailto:sumitgaurav048@gmail.com">
+                    <a href="mailto:saisripavanarveti@gmail.com">
                       <Mail className="w-4 h-4" />
                       Send Message
                     </a>

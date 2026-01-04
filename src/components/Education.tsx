@@ -1,12 +1,20 @@
 const Education = () => {
   const education = [
     {
-      degree: "Bachelor of Technology in Computer Science and Engineering",
-      school: "International Institute of Information Technology, Bhubaneswar",
-      period: "2022 – 2026",
-      gpa: "8.05/10",
-      coursework: ["Data Structures", "Algorithms", "Operating Systems", "Computer Networks", "DBMS", "OOP", "Distributed Systems"],
-      logo: "IIIT"
+      degree: "MSc International Business",
+      school: "Maynooth University, Ireland",
+      period: "Sep 2024 – Oct 2025",
+      gpa: "66.8% - Top 2%",
+      coursework: ["Strategic Management", "International Business", "Cross-Cultural Management", "Sustainability in Business", "Financial Modelling", "Business Management & Consulting"],
+      logo: "MU"
+    },
+    {
+      degree: "B.Com (Professional) Banking & Insurance",
+      school: "Christ University, Bengaluru, India",
+      period: "June 2017 – May 2020",
+      gpa: "6.91/10 CGPA",
+      coursework: ["Banking Operations", "Insurance Management", "Financial Accounting", "Business Economics", "Investment Analysis", "Risk Management"],
+      logo: "CU"
     }
   ];
 
@@ -18,7 +26,8 @@ const Education = () => {
             Education
           </h2>
           <p className="text-xl text-gray-400 max-w-3xl mx-auto">
-            My academic journey in Computer Science and commitment to continuous learning
+            Academic excellence in business, finance, and international business with strong 
+            foundation in strategic management and financial operations
           </p>
         </div>
 
@@ -38,7 +47,7 @@ const Education = () => {
                 
                 <div className="text-right">
                   <p className="text-gray-300 font-medium">{edu.period}</p>
-                  <p className="text-green-400 font-semibold">GPA: {edu.gpa}</p>
+                  <p className="text-green-400 font-semibold">{edu.gpa}</p>
                 </div>
               </div>
 

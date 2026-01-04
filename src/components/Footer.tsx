@@ -4,10 +4,10 @@ const Footer = () => {
       <div className="container mx-auto px-6">
         <div className="text-center">
           <p className="text-gray-400">
-            © {new Date().getFullYear()} Sumit Kumar. All rights reserved.
+            © {new Date().getFullYear()} Sai Sri Pavan Arveti. All rights reserved.
           </p>
           <p className="text-gray-500 text-sm mt-2">
-            Built with passion and dedication to excellence.
+            Finance & Business Analyst | MSc International Business
           </p>
         </div>
       </div>
