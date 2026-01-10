@@ -30,7 +30,7 @@ const Contact = () => {
     {
       icon: <Linkedin className="w-5 h-5" />,
       label: "LinkedIn",
-      href: "https://linkedin.com/in/sai-sri-pavan-arveti",
+      href: "https://www.linkedin.com/in/sai-sri-pavan-arveti-0a707b148?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3B8fMP3VT5SQKYUApMFOB4pg%3D%3D",
       color: "text-blue-500"
     }
   ];

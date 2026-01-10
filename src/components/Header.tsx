@@ -47,7 +47,7 @@ const Header = () => {
             <a href="tel:+353894984204" className="text-gray-300 hover:text-blue-400 transition-colors">
               <Phone size={18} />
             </a>
-            <a href="https://linkedin.com/in/sai-sri-pavan-arveti" target="_blank" rel="noopener noreferrer" className="text-gray-300 hover:text-blue-400 transition-colors">
+            <a href="https://www.linkedin.com/in/sai-sri-pavan-arveti-0a707b148?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3B8fMP3VT5SQKYUApMFOB4pg%3D%3D" target="_blank" rel="noopener noreferrer" className="text-gray-300 hover:text-blue-400 transition-colors">
               <Linkedin size={18} />
             </a>
           </div>
@@ -89,7 +89,7 @@ const Header = () => {
                 <a href="tel:+353894984204" className="text-gray-300 hover:text-blue-400 transition-colors">
                   <Phone size={18} />
                 </a>
-                <a href="https://linkedin.com/in/sai-sri-pavan-arveti" target="_blank" rel="noopener noreferrer" className="text-gray-300 hover:text-blue-400 transition-colors">
+                <a href="https://www.linkedin.com/in/sai-sri-pavan-arveti-0a707b148?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3B8fMP3VT5SQKYUApMFOB4pg%3D%3D" target="_blank" rel="noopener noreferrer" className="text-gray-300 hover:text-blue-400 transition-colors">
                   <Linkedin size={18} />
                 </a>
               </div>
